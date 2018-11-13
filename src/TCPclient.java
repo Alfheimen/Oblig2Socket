@@ -47,7 +47,7 @@ public class TCPclient {
 
         }
     }
-
+    //test
     private void receiveData() throws Exception {
         if(inbound.ready()) {                                       // Ready VERY important to ensure server is ready to send.
             inbound.read(bufferIn, 0, bufferIn.length);
